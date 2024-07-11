@@ -1,0 +1,9 @@
+[package]
+name = "svg2png"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1"
+argh = "0.1"
+resvg = "0.42"
