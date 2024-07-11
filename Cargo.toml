@@ -1,9 +1,14 @@
 [package]
 name = "svg2png"
 version = "0.1.0"
+description = "Utility to render svg to png"
 edition = "2021"
 
 [dependencies]
 anyhow = "1"
 argh = "0.1"
 resvg = "0.42"
+
+[profile.release]
+strip = true
+lto = true
