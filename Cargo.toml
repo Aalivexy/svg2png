@@ -7,7 +7,7 @@ edition = "2021"
 [dependencies]
 anyhow = "1"
 argh = "0.1"
-resvg = "0.42"
+resvg = "0.45"
 
 [profile.release]
 strip = true
